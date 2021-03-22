@@ -148,7 +148,6 @@ body {
 
 .header-contact {
   display: flex;
-
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -158,6 +157,9 @@ body {
 }
 
 .header-contact .link {
+  display: flex;
+  align-items: center;
+
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -170,6 +172,20 @@ body {
 .footer-contact .link:focus {
   color: var(--accent-color);
   --color1: var(--accent-color);
+}
+
+.mail-icon {
+  display: inline;
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+}
+
+.phone-icon {
+  display: inline;
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
 }
 
 /* ========== END HEADER ========== */
@@ -250,7 +266,7 @@ body {
 
 /* ========== END BUTTON ========== */
 
-/* ========== CONTENT SECTIONS ========== */
+/* ========== FEATURES SECTION ========== */
 
 .section-title {
   color: var(--title-text-color);
@@ -261,8 +277,6 @@ body {
 
   margin: 0 auto 50px auto;
 }
-
-/* ========== FEATURES  WORK  TEAM ========== */
 
 .feature-list,
 .work-list,
@@ -275,6 +289,21 @@ body {
   display: flex;
 }
 
+.feature-list-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--seconf-bg-color);
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.feature-list-icon {
+  width: 70px;
+  height: 70px;
+}
 .feature-list .title {
   color: var(--title-text-color);
   font-size: inherit;
@@ -289,6 +318,10 @@ body {
   line-height: 1.71;
 }
 
+/* ========== END FEATURE SECTIONS ========== */
+
+/* ========== WORK SECTIONS ========== */
+
 .section.work {
   display: flex;
   padding-top: 0px;
@@ -299,6 +332,10 @@ body {
 .clients-list .item:not(:last-child) {
   margin-right: 30px;
 }
+
+/* ========== END WORK SECTIONS ========== */
+
+/* ========== TEAM SECTIONS ========== */
 
 .section.team {
   background-color: var(--seconf-bg-color);
@@ -344,6 +381,10 @@ body {
   text-align: center;
 }
 
+/* ========== END TEAM SECTIONS ========== */
+
+/* ========== CLIENTS SECTIONS ========== */
+
 .section.clients {
   display: flex;
 }
@@ -376,7 +417,9 @@ body {
   --color1: var(--accent-color);
 }
 
-/* Социальные ссылки */
+/* ========== END CLIENTS SECTIONS ========== */
+
+/* ========== SOCIAL LINKS ========== */
 
 .social-list {
   display: flex;
@@ -409,6 +452,9 @@ body {
   --color1: var(--primary-white-color);
 }
 
+/* ========== END SOCIAL LINKS ========== */
+
+/* ========== PORTFOLIO SECTION ========== */
 /*  Portfolio page*/
 
 .section.portfolio {
@@ -474,7 +520,8 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-/* ========== END CONTENT SECTIONS ========== */
+
+/* ========== END PORTFOLIO SECTION ========== */
 
 /* ========== FOOTER ========== */
 
